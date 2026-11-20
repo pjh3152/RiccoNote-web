@@ -26,12 +26,18 @@
 <p>Google 드라이브에 저장된 데이터에는 Google의 개인정보처리방침이 함께 적용됩니다.</p>
 <h2>3. 웹 버전 호스팅</h2>
 <p>웹 버전 화면 파일은 GitHub Pages에서 제공됩니다. 페이지를 열 때 GitHub가 접속 기록(IP 주소 등)을 처리할 수 있으며, 여기에는 GitHub의 개인정보처리방침이 적용됩니다. 노트 내용은 GitHub로 보내지 않습니다.</p>
-<h2>4. 사진과 미리알림</h2>
-<p>사진은 사용자가 시스템 사진 선택기에서 직접 고른 것만 노트에 복사해 저장합니다. 사진 전체 접근 권한은 요청하지 않습니다. 미리알림은 기기 안에서 예약하고 표시하며, 알림에는 노트 제목과 내용 일부가 보일 수 있습니다.</p>
+<h2>4. 사진, 미리알림과 Android 권한</h2>
+<p>사진은 사용자가 시스템 사진 선택기에서 직접 고른 것만 노트에 복사해 저장합니다. 사진 전체 접근 권한은 요청하지 않습니다. 미리알림은 기기 안에서 예약하고 표시하며, 알림에는 노트 제목과 내용 일부가 보일 수 있습니다. 웹 버전에서는 알림을 울리지 않습니다.</p>
+<table><tr><th>Android 권한</th><th>사용 목적</th></tr>
+<tr><td>알림 (POST_NOTIFICATIONS)</td><td>Android 13 이상에서 미리알림 표시</td></tr>
+<tr><td>정확한 알람 (USE_EXACT_ALARM / SCHEDULE_EXACT_ALARM)</td><td>정한 시각에 알림 예약. SCHEDULE_EXACT_ALARM 선언은 Android 12L 이하에 적용됩니다.</td></tr>
+<tr><td>부팅 완료 수신 (RECEIVE_BOOT_COMPLETED)</td><td>폰을 다시 켠 뒤 남은 알림 다시 예약</td></tr>
+<tr><td>진동 (VIBRATE)</td><td>미리알림 진동</td></tr>
+<tr><td>인터넷, 네트워크 상태 (INTERNET / ACCESS_NETWORK_STATE)</td><td>사용자가 Google 드라이브를 연결한 경우에만 동기화</td></tr></table>
 <h2>5. 백업 파일</h2>
 <p>사용자가 ‘백업 파일 내보내기’를 선택하면 직접 고른 위치에 노트가 담긴 JSON 파일을 저장합니다. 개발자는 이 파일에 접근하지 않습니다. 백업에는 노트 내용이 그대로 들어 있으니 안전하게 보관하세요.</p>
 <h2>6. 아동의 개인정보</h2>
 <p>앱은 연령과 관계없이 개인정보를 수집하지 않으며 광고·추적 기능이 없습니다.</p>
 <h2>7. 변경 및 문의</h2>
-<p>방침이 변경되면 이 페이지에 게시합니다. 문의는 <a href="https://github.com/pjh3152/RiccoNote-web/issues">GitHub Issues</a>에 남겨 주세요. 문의에 개인정보나 실제 노트 내용을 넣지 않도록 주의해 주세요.</p>
-<p><a href="./">RiccoNote 소개</a></p></main></body></html>
+<p>방침이 변경되면 이 페이지에 게시합니다. 문의는 <a href="https://github.com/pjh3152/RiccoNote-app/issues">GitHub Issues</a>에 남겨 주세요. 문의에 개인정보나 실제 노트 내용을 넣지 않도록 주의해 주세요.</p>
+<p><a href="https://pjh3152.github.io/RiccoNote-app/">RiccoNote 소개·다운로드</a> · <a href="https://pjh3152.github.io/RiccoNote-web/">PC 웹 버전</a></p></main></body></html>
